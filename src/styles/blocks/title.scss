@@ -1,0 +1,52 @@
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px; /* 100% */
+  letter-spacing: 9.92px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px $color-turquoise;
+  color: transparent;
+
+  &--solid {
+    color: $color-turquoise;
+  }
+
+}
+
+.links {
+  font-weight: 400;
+  line-height: normal;
+
+  &__header {
+    letter-spacing: 2.16px;
+    color: #333;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+  }
+
+  &__nav {
+    color: #4f4f4f;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 150%; /* 24px */
+  }
+
+  &__more {
+    color: $color-turquoise;
+    font-family: "Manrope", sans-serif;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    transform: rotate(90deg) translateY(-100%);
+    &::after {
+      content: url("../images/icons/arrow.svg");
+      margin-left: 10px;
+      fill: #828282;
+      stroke-width: 1px;
+      stroke: 1px $color-turquoise;
+    }
+  }
+
+}

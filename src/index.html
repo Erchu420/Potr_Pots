@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
     <header class="header">
-      Hello Mate Academy
+      <div class="header__yellow-path">
+      </div>
+
+      <nav class="header__nav navigation">
+        <a href="#home" class="navigation__logo-link links links__header">potr pots</a>
+        <ul class="navigation__list">
+          <li class="navigation__list-item links">
+            <a href="#" class="links__nav">Features</a>
+          </li>
+          <li class="navigation__list-item links">
+            <a href="#" class="links__nav">About us</a>
+          </li>
+          <li class="navigation__list-item links">
+            <a href="#" class="links__nav">Materials</a>
+          </li>
+          <li class="navigation__list-item links">
+            <a href="#" class="links__nav">Message us</a>
+          </li>
+        </ul>
+        <a href="#" class="navigation__bucket">
+          <img src="./images/icons/bucket.png" alt="shopping bucket icon"
+          class="navigation__bucket-image">
+        </a>
+      </nav>
+
+      <h1 class="header__title title">
+        POTR ~ Eco,
+        self-<span class="title title--solid">watering, origami</span>
+        plant
+        <span class="title  title--solid">pots</span>
+      </h1>
+
+      <img src="./images/cactus.jpg" alt="A cactus in a pot!"
+       class="header__image"
+      >
+
+      <div class="header__buy-now buy-now">
+        <p class="buy-now__price">7,50</p>
+        <p class="buy-now__text">Get the second order in half price</p>
+      </div>
+      <button class="header__buy-button button button--buy">Buy Now</button>
+
+      <div class="header__more">
+        <a href="#" class="links links__more">
+          More about POTR POTS
+        </a>
+      </div>
     </header>
   </body>
 </html>
